@@ -2,7 +2,7 @@ package CohortTen;
 
 public class PrintTable {
     public static void main(String[] args) {
-        float a, b;
+        int a, b;
         System.out.println("a        b        pow(a, b)");
         a = 1;
         b = 2;

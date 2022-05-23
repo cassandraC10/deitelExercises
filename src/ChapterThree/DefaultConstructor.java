@@ -9,10 +9,11 @@ public class DefaultConstructor {
         // An example of a class constructor that takes two parameters
     }
 
-    public DefaultConstructor(){}
+    public DefaultConstructor() {
+    }
     // An example of a class constructor that takes no parameters
 
-    public static void  main(String[] args) {
+    public static void main(String[] args) {
         int breadth = 0;
         int width = 0;
         DefaultConstructor jenniferDc = new DefaultConstructor(breadth, width);
@@ -21,16 +22,26 @@ public class DefaultConstructor {
         DefaultConstructor sandraDc = new DefaultConstructor();
     }
 
-    //No. 3.7. The purpose of an instance variable
-    private String Food;         // an example of an instance variable
+}
+
+
+//No. 3.7. The purpose of an instance variable
+   // private String Food;         // an example of an instance variable
     // an instance variable is always written inside the class but
     // before the object's method unlike the local variable, because it can be used multiple times
     // by different methods in the same class.
 
-    // No. 3.8 (Using Classes without Importing Them)
+// No. 3.8 (Using Classes without Importing Them)
     //Ans = String and System are built in functions that can be imported implicitly.
 
-    // No. 3.9 (Explain how a program could use class Scanner without importing it)
+// No. 3.9 (Using a Class without Importing It)
     // by calling the class method anytime it wants to use it.
 
-}
+// No. 3.10 (set and get Methods)
+    // without a setter: it is hard to update or change the variable value
+    // without a getter: it can be hard to read the variable value.
+
+// No. 3.11 (Modified Account Class)
+    // new class
+
+
