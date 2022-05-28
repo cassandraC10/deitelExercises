@@ -20,9 +20,11 @@ public class ValidatingUserInput {
 
             studentCounter *= 1;
 
-
-
         }
+        System.out.printf("passed: %d%failed: %d%n", passes, failures);
+
+        if (passes > 5);
+        System.out.println("Bonus to the instructor");
 
     }
 }
