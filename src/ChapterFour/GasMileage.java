@@ -13,7 +13,7 @@ public class GasMileage {
         int totalMileage = 0;
         int totalGallon = 0;
         int counter = 1;
-        double milespergallonsused = 0;
+        double milespergallonsused ;
         double average;
 
         System.out.print("Enter a mileage (or -1 to quit): ");
